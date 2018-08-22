@@ -9,7 +9,8 @@ var wif = require('wif')
 var NETWORKS = require('./networks')
 var BigInteger = require('bigi')
 
-var secp256k1 = require('secp256k1')
+var ecurve = require('ecurve')
+var secp256k1 = ecdsa.__curve
 
 function ECPair (d, Q, options) {
   if (options) {
