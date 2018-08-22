@@ -30,8 +30,8 @@
     "src"
   ],
   "dependencies": {
-    "bech32": "git://github.com/TheTrunk/bigi.git#master",
-    "bigi": "^1.4.0",
+    "bech32": "^1.1.2",
+    "bigi": "git://github.com/TheTrunk/bigi.git#master",
     "bip66": "^1.1.0",
     "bitcoin-ops": "^1.3.0",
     "bs58check": "^2.0.0",
